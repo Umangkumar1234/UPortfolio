@@ -1,0 +1,44 @@
+.abc span{
+    color: aliceblue;
+    
+  
+}
+
+.abc span a{
+    color: rgb(5, 5, 223);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+.imgcertificate img{
+    width: 70%;
+    height: 200px;
+    border: 1px solid rgb(11, 96, 145);
+    border-radius: 5%;
+}
+
+@media (max-width:420px) {
+    .m-5 {
+        margin: 1.2rem !important;
+    }
+    
+    .abc span{
+        color: aliceblue;
+        font-size: 0.8rem; 
+        width: fit-content;
+    }
+    .abc span a{
+        color: rgb(19, 3, 114);
+        font-size: 0.8rem; 
+        width: fit-content;
+    }
+
+    .imgcertificate img{
+        width: 50%;
+        height: 150px;
+        border: 1px solid rgb(11, 96, 145);
+        border-radius: 5%;
+        margin-right: 50px;
+    }
+
+}

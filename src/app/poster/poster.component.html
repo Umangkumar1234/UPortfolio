@@ -1,0 +1,61 @@
+<div class="container">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">࿐ᑌϻA₦g⸙</label>
+        <!-- <ul>
+            <li> <span><a (click)="onClick()" routerLink="/about">About us</a></span> </li>
+            <li> <span><a (click)="scrollTo()" routerLink="/edu">Education</a></span></li>
+            <li> <span><a (click)="onClickCerti('certification')" routerLink="/certification">Certification</a></span>
+            </li>
+            <li><span><a (click)="onClickskill('skills')" routerLink="/skills">Skills</a></span></li>
+            <li> <span><a (click)="onClickproject('project')" routerLink="/project">Project</a></span></li>
+            <li> <span><a (click)="onClickworks('work')" routerLink="/works">Work experience</a></span></li>
+        </ul> -->
+        <ul>
+            <li><span><a (click)="onClick('about')" routerLink="/about">About us</a></span></li>
+            <li><span><a (click)="onClick('edu')" routerLink="/edu">Education</a></span></li>
+            <li><span><a (click)="onClick('certification')" routerLink="/certification">Certification</a></span></li>
+            <li><span><a (click)="onClick('skills')" routerLink="/skills">Skills</a></span></li>
+            <li><span><a (click)="onClick('project')" routerLink="/project">Project</a></span></li>
+            <li><span><a (click)="onClick('works')" routerLink="/works">Work experience</a></span></li>
+        </ul>
+          
+    </nav>
+
+    <div class="row ">
+        <div class="name  col-md-8 col-sm-12 col-xs-12">
+            <span>
+                <span>Hi, </span>&nbsp; <span id="abc">I'm</span>
+            </span><br>
+            <span class="typed">Umang Kumar</span><br>
+            <span id="xyz">Associate Software Developer</span>
+        </div>
+
+        <div class="profile col-md-4 col-sm-12 col-xs-12">
+            <div>
+                <img src="assets/img/UmangKumar.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12" id="resume">
+            <a routerLink="/resume" (click)="onClickResume('resumes')">See my resume</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="icon col-md-4 col-sm-12 col-xs-12" id="icons">
+            <span><a href="https://krumang16122000@gmail.com"><i class="fa-solid fa-envelope mail"></i></a></span>
+            <span><a href="https://www.linkedin.com/in/umang-kumar-5336a8227/"><i
+                        class="fa-brands fa-linkedin"></i></a></span>
+            <span><a href="https://github.com/Umangkumar1234"><i class="fa-brands fa-github git"></i></a></span>
+            <span><a href="https://www.facebook.com/umang.kumar.3511041"><i
+                        class="fa-brands fa-square-facebook"></i></a></span>
+
+        </div>
+    </div>
+</div>
